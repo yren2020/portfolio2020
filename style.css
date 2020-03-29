@@ -6,164 +6,149 @@ body {
     padding: 40px 0;
 }
 .container {
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
     overflow: hidden;
 }
 .header-logo-container {
     float: left;
-    padding: 20px;
+    padding-left: 300px;
+    padding-top: 20px;
+    font-size: 40px;
 }
 .header-menu {
     float: left;
     padding: 20px 20px 20px 550px;
+    font-size: 30px;
 }
 .header-menu-link {
     float: left;
     padding: 0px 10px 10px 10px;
     margin: 5px;
 }
+.header-menu-link:first-child{
+    color: #34547A;
+}
 .main-layout {
     background: #E5E5E5;
     width: 100%;
     margin: 0 auto;
+    padding: 100px;
 }
 .main-layout-column {
     background: #E5E5E5;
     float: left;
-    width: 50%;
+    width: 40%;
+    margin: 30px;
 }
-
-.main-layout-title
-{float: left;
+.img{
+    padding-left: 200px;
+}
+.main-layout-title{
+    float: left;
     margin: 0px 20px 20px 100px;
     font-size: 30px;
 }
-.main-layout-description
-{float: left;
-    margin: 20px 20px 20px 100px;
+.main-layout-description{
+    float: left;
+    margin: 20px 120px 20px 100px;
+    font-size: 20px;
+    color: #727272;
 }
-.snap
-{float: left;
+.snap{
+    float: left;
     margin: 20px 20px 20px 100px;
     background: #34547A;color: #ffffff;
-    padding: 10px;
+    padding: 15px 30px 15px 30px;
+    font-size: 20px;
 }
 .about{
     width: 100%;
-    height: 220px;
-    margin: 0 auto;
-
-
+    height: 600px;
+    background: #fcfdfd;
 }
-.about-title
-{
-    width: 30vw;
+.about-title{
+    width: 100%;
     float: left;
-    padding:50px 300px 20px 600px;
-    font-size: 30px;
-
-}
-.about-description
-{
-    width: 50vw;
-    float: left;
-    padding: 10px 200px 20px 200px;
-    margin: 10px 100px 20px 50px;
     text-align: center;
-
-
+    font-size: 50px;
+    font-weight: bolder;
+    margin-top: 160px;
+    margin-bottom: 100px;
 }
-.container {
+.about-description{
+    width: 870px;
+    margin: 0 auto;
+    padding: 12px;
+    text-align: center;
+    font-size: 30px;
+    color: #727272;
+}
+.container1 {
     width: 100%;
     margin: 0 auto;
 }
-.numbers
-{
+.numbers{
     width: 100%;
     height: 200px;
     background:#34547A;color: #ffffff;
-
+    overflow: hidden;
 }
 .number {
     float: left;
     padding: 60px 20px 40px 20px;
-    margin: 0px 50px 0px 50px;
-
+    margin: 0px 100px 0px 100px;
 }
-.number-column
-{
+.number-column{
     float: left;
     margin: 10px;
 }
-.number-title
-{
-margin: 2px;
+.number-title{
+    margin: 2px;
     font-size: 20px;
 }
-.number-subtitle
-{
-margin: 2px;
+.number-subtitle{
+    margin: 2px;
 }
-.main-layout
-{
+.main-layout1{
     width: 100%;
     background: #E5E5E5;
 }
-.main-layout-column
-{
-    width: 30vw;
-padding: 50px 100px 100px 100px;
-
+.main-layout-column1{
+    width: 45%;
+    float: left;
+    margin: 130px 10px;
 }
-.main-layout-title
-{
-
-    font-size: 40px;
+.main-layout-title1{
+    width: 50%;
+    font-size: 50px;
+    margin-left: 380px;
+    margin-top: 200px;
+    margin-bottom: 30px;
 }
-.main-layout-description
-{
-    font-size: 20px;
+.main-layout-description1{
+    width: 50%;
+    font-size: 30px;
     color: #727272;
+    margin-left: 380px;
 }
 .line{
-    width: 250px;
+    width: 400px;
     height: 5px;
     background: #727272;
-
 }
-
-.subtitle1
-{
+.subtitle{
     padding: 20px 20px 20px 0px;
+
 }
 .line1{
-    width: 200px;
-    height: 5px;
-    background: #34547A;
-}
-.subtitle2{
-    padding: 20px 20px 20px 0px;
-}
-.line2
-{
-    width: 200px;
-    height: 5px;
-    background: #34547A;
-}
-.subtitle3{
-    padding: 20px 10px 10px 0px;
-}
-.line3{
-    width: 200px;
+    width: 300px;
     height: 5px;
     background: #34547A;
 }
 .boroda-icon{
-    width: 20vw;
-    float: left;
-
-
+    width: 30vw;
+    padding-left: 0px;
 }
 
 .parents{
@@ -174,27 +159,29 @@ padding: 50px 100px 100px 100px;
     background: lightgray;
 }
 .parents-title{
-    width: 70%;
-    font-size: 40px;
+    width: 100%;
+    font-size: 50px;
+    font-weight: bolder;
     text-align: center;
-
 }
-.parents-description
-{
-    width: 50%;
-    float: left;
-    font-size: 20px;
+.parents-description{
+    width: 870px;
+    margin: 0 auto;
+    padding: 50px;
     text-align: center;
+    font-size: 30px;
     color: #727272;
-    padding: 10px 10px 50px 180px;
 }
 .video{
-    width: 65%;
-    float: left;
-    padding: 50px 50px 50px 150px;
+    width:1300px;
+    margin: 0 auto;
+    padding: 10px;
 }
 .video-icon {
-    width: 800px;
+    width: 1250px;
+    background-size: cover;
+    padding: 20px;
+    background: black;
 }
 .projects{
     width: 100%;
@@ -215,7 +202,7 @@ padding: 50px 100px 100px 100px;
 .kvadrat{
     float: left;
     width: 100%;
-    margin: 50px 0px 10px 0px;
+    margin: 70px 0px 70px 0px;
 }
 .kvadrat-laptop{
     float: left;
@@ -226,74 +213,75 @@ padding: 50px 100px 100px 100px;
 .kvadrat-icon {
     width: 60%;
 }
+
 .worker{
     width: 100%;
     float: left;
     background: #E5E5E5;
 }
 .worker-title{
-    width: 400px;
-    height: 150px;
+    width: 100%;
     font-size: 50px;
     font-weight: bolder;
     text-align: center;
-    margin-left: 470px;
-    margin-top: 100px;
-
+    margin: 100px 0px;
 }
 .worker-description{
-    width: 80%;
+    width: 870px;
     margin: 0 auto;
-    font-size: 30px;
-    color: #5f5d5d;
+    padding: 0px 0px 100px 0px;
     text-align: center;
+    font-size: 30px;
+    color: #727272;
 }
 
 .writer {
     float: left;
     width:100% ;
-    height: 1000px;
+    height: 800px;
     font-size: 30px;
     background:#E5E5E5;
 
 }
-.writer-column
-{float: left;
-    width: 60%;
-    margin: 30px 30px 30px 330px;
-
+.writer-column1{
+    width: 40%;
+    margin: 0 auto;
 }
 .your-name {
     float: left;
-    width: 20%;
-    height: 50px;
-    padding: 30px 170px 20px 20px;
-    margin: 20px;
+    width: 45%;
+    height: 60px;
+    padding: 20px;
+    margin: 20px 20px 20px 0px;
+    clear: right;
     background: #ffffff;
 }
 .your-email{
     float: left;
-    width: 20%;
-    height: 50px;
-    padding: 30px 170px 20px 20px;
-    margin: 20px;
+    width: 45%;
+    height: 60px;
+    padding: 20px;
+    margin: 20px 0px 20px 0px;
     background: #ffffff;
+}
+.writer-column2{
+    width: 40%;
+    margin: 0 auto;
 }
 .message{
     float: left;
-    width: 90%;
-    height: 250px;
+    width: 965px;
+    height: 300px;
     padding: 20px;
-    margin: 20px;
     background: #ffffff;
 }
 .knopka{
     float: left;
-    width: 30%;
-   text-align: center;
-    margin-left: 200px;
+    width: 20rem;
+    text-align: center;
     background: #34547A;color: #ffffff;
-    padding: 15px;
+    padding: 30px 20px;
+    margin: 70px 400px 20px 320px
 }
 .vkontakte{
     float: left;
@@ -303,8 +291,8 @@ padding: 50px 100px 100px 100px;
 }
 .vkontakte-column{
     float: left;
-    width: 30%;
-    margin: 70px 20px 20px 200px;
+    width: 50%;
+    margin: 80px 0px ;
     font-size: 20px;
     color: #ffffff;
 }
@@ -318,9 +306,15 @@ padding: 50px 100px 100px 100px;
 .vector-icon{
     float: left;
     width: 10%;
-    height: 25px;
-    margin: 5px 20px 5px 20px;
+    height: 51px;
+    margin: 5px 30px;
 }
+
+
+
+
+
+
 .svg-icon {
     fill: red;
     stroke: green;
@@ -374,6 +368,25 @@ padding: 50px 100px 100px 100px;
     }
 }
 
-@media (max-width: 990px) {
+@media (max-width: 1286px) {
+    .main-layout-column1 {
+        width: 100%;
 
+
+    }
+    .main-layout-title1 {
+
+        width: 100%;
+    }
+    .main-layout-description1 {
+        margin: 0;
+        text-align: center;
+        width: 100%;
+    }
+    .subtitle {
+        margin: 0 auto;
+    }
+    .line1{
+        margin: 0 auto;
+    }
 }
