@@ -251,7 +251,7 @@ body {
 }
 .your-name {
     float: left;
-    width: 45%;
+    width: 40%;
     height: 60px;
     padding: 20px;
     margin: 20px 20px 20px 0px;
@@ -260,7 +260,7 @@ body {
 }
 .your-email{
     float: left;
-    width: 45%;
+    width: 40%;
     height: 60px;
     padding: 20px;
     margin: 20px 0px 20px 0px;
@@ -369,14 +369,15 @@ body {
         margin: 0 auto;
     }
     .main-layout-title1 {
-        width: 100%;
+        width: 30%;
+        overflow: hidden;
         margin-left: 50px;
         margin-top: 40px;
     }
     .main-layout-description1 {
         margin-left: 50px;
         margin-top: 60px;
-        width: 100%;
+        width: 30%;
     }
     .subtitle {
 
@@ -451,7 +452,7 @@ body {
 
 
 button {
-    width: 150px;
+    width: 200px;
     height: 100px;
 }
 button:nth-child(1) {
@@ -470,7 +471,7 @@ button:nth-child(5) {
     background: red;
 }
 .screen {
-    width: 100px;
+    width: 500px;
     height: 100px;
     background: red;
 }
